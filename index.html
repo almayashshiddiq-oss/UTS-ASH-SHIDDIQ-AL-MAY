@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web profil pribadi Ash Shiddiq Al May, mahasiswa Teknik Informatika Universitas Pelita Bangsa.">
+  <meta name="author" content="ASH SHIDDIQ AL MAY">
+  <title>Web Ash Shiddiq Al May</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#konten">Lewati ke konten utama</a>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="logo" href="#beranda" aria-label="Kembali ke beranda">
+        <span class="logo__mark" aria-hidden="true">AS</span>
+        <span class="logo__text">Web Ash Shiddiq Al May</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="menu" id="menu" aria-label="Navigasi utama">
+        <a href="#tentang">Tentang</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#multimedia">Multimedia</a>
+        <a class="menu__cta" href="#kontak">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="konten">
+    <!-- a. Struktur semantic + b. Header, navigasi, dan hero panel -->
+    <section class="hero" id="beranda" aria-labelledby="judul-utama">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="badge">Mahasiswa Teknik Informatika</p>
+          <h1 id="judul-utama">Halo, saya <span>ASH SHIDDIQ AL MAY</span></h1>
+          <p class="hero__role">Universitas Pelita Bangsa &middot; NIM 312510072</p>
+          <p class="hero__text">Saya tertarik pada pengembangan web dan desain antarmuka. Saat ini saya sedang belajar membuat website yang rapi, responsif, dan mudah digunakan.</p>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#proyek">Lihat pengalaman</a>
+            <a class="button button--outline" href="#kontak">Hubungi saya</a>
+          </div>
+
+          <ul class="hero__info">
+            <li>
+              <strong>NIM</strong>
+              <span>312510072</span>
+            </li>
+            <li>
+              <strong>Kampus</strong>
+              <span>Universitas Pelita Bangsa</span>
+            </li>
+            <li>
+              <strong>Domisili</strong>
+              <span>Jakarta Timur</span>
+            </li>
+          </ul>
+        </div>
+
+        <figure class="hero__photo">
+          <div class="photo-card">
+            <img src="images/profil.jpg" alt="Foto profil Ash Shiddiq Al May" width="720" height="1061">
+            <figcaption class="photo-card__caption">
+              <strong>ASH SHIDDIQ AL MAY</strong>
+              <span>NIM 312510072</span>
+            </figcaption>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- c. Bagian biografi dan profil utama -->
+    <section class="section" id="tentang" aria-labelledby="judul-tentang">
+      <div class="container">
+        <div class="section__heading">
+          <h2 id="judul-tentang">Biografi &amp; Profil</h2>
+          <p>Mengenal saya lebih dekat: latar belakang, minat, dan hal yang sedang saya bangun.</p>
+        </div>
+
+        <div class="about">
+          <article class="about__text">
+            <h3>Siapa saya</h3>
+            <p class="about__lead">Saya ASH SHIDDIQ AL MAY, mahasiswa Teknik Informatika yang percaya bahwa website yang baik bukan hanya terlihat menarik, tetapi juga mudah dipahami dan digunakan.</p>
+            <p>Saya menempuh studi di Universitas Pelita Bangsa dengan NIM 312510072. Sebelumnya saya bersekolah di SMAN 107 Jakarta Timur jurusan IPA. Latar belakang IPA melatih saya berpikir runtut dan teliti, sementara rasa ingin tahu pada teknologi membuat saya nyaman mencoba hal-hal baru.</p>
+            <p>Di luar perkuliahan, saya bekerja di PT Dankos Farma sejak 2026 dan sebelumnya bekerja di PT Astra Honda Motor pada 2025&ndash;2026. Dari pengalaman tersebut saya belajar disiplin, tanggung jawab, dan kerja sama tim. Waktu luang saya isi dengan membuat web sederhana menggunakan VS Code serta mendesain poster di Canva.</p>
+            <p>Ke depan, saya ingin terus mengembangkan kemampuan di bidang pengembangan web dan desain antarmuka, lalu membangun karya yang bermanfaat bagi banyak orang.</p>
+            <ul class="about__chips" aria-label="Sifat dan minat">
+              <li>Teliti</li>
+              <li>Mau belajar</li>
+              <li>Kerja sama tim</li>
+              <li>Kreatif</li>
+            </ul>
+          </article>
+
+          <aside class="about__card" aria-labelledby="judul-data">
+            <h3 id="judul-data">Data singkat</h3>
+            <dl>
+              <div>
+                <dt>Nama lengkap</dt>
+                <dd>ASH SHIDDIQ AL MAY</dd>
+              </div>
+              <div>
+                <dt>NIM</dt>
+                <dd>312510072</dd>
+              </div>
+              <div>
+                <dt>Program studi</dt>
+                <dd>Teknik Informatika</dd>
+              </div>
+              <div>
+                <dt>Kampus</dt>
+                <dd>Universitas Pelita Bangsa</dd>
+              </div>
+              <div>
+                <dt>Asal sekolah</dt>
+                <dd>SMAN 107 Jakarta Timur (Jurusan IPA)</dd>
+              </div>
+              <div>
+                <dt>Email</dt>
+                <dd><a href="mailto:ashiddiqalmay1@gmail.com">ashiddiqalmay1@gmail.com</a></dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+
+        <div class="highlights">
+          <article class="highlight-card">
+            <span>Fokus</span>
+            <h3>Web &amp; Desain</h3>
+            <p>Membangun halaman web sederhana dan merancang poster yang komunikatif.</p>
+          </article>
+          <article class="highlight-card">
+            <span>Pendidikan</span>
+            <h3>Universitas Pelita Bangsa</h3>
+            <p>S1 Teknik Informatika, NIM 312510072.</p>
+          </article>
+          <article class="highlight-card">
+            <span>Pengalaman</span>
+            <h3>PT Dankos Farma</h3>
+            <p>2026 &ndash; sekarang, setelah PT Astra Honda Motor.</p>
+          </article>
+        </div>
+
+        <blockquote class="quote">
+          &ldquo;Belajar, mencoba, dan merapikan detail &mdash; tiga hal yang saya bawa dalam setiap proyek.&rdquo;
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- d. Tabel riwayat pendidikan -->
+    <section class="section section--soft" id="pendidikan" aria-labelledby="judul-pendidikan">
+      <div class="container">
+        <div class="section__heading">
+          <h2 id="judul-pendidikan">Riwayat Pendidikan</h2>
+          <p>Riwayat pendidikan yang sedang dan sudah saya jalani.</p>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <caption>Riwayat pendidikan Ash Shiddiq Al May</caption>
+            <thead>
+              <tr>
+                <th scope="col">Tahun</th>
+                <th scope="col">Jenjang</th>
+                <th scope="col">Institusi</th>
+                <th scope="col">Jurusan / Program</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2024 &ndash; Sekarang</td>
+                <td>Perguruan Tinggi</td>
+                <td>Universitas Pelita Bangsa</td>
+                <td>S1 Teknik Informatika</td>
+              </tr>
+              <tr>
+                <td>2021 &ndash; 2023</td>
+                <td>SMA</td>
+                <td>SMAN 107 Jakarta Timur</td>
+                <td>Jurusan IPA</td>
+              </tr>
+              <tr>
+                <td>2017 &ndash; 2020</td>
+                <td>SMP</td>
+                <td>SMPN 04 Babelan</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr>
+                <td>2011 &ndash; 2017</td>
+                <td>SD</td>
+                <td>SDN Bahagia 06</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- e. Tabel riwayat pengalaman kerja -->
+    <section class="section" id="pengalaman" aria-labelledby="judul-pengalaman">
+      <div class="container">
+        <div class="section__heading">
+          <h2 id="judul-pengalaman">Riwayat Pengalaman Kerja</h2>
+          <p>Pengalaman kerja di PT Dankos Farma, PT Astra Honda Motor, serta proyek mandiri yang saya kerjakan untuk latihan dan tugas kuliah.</p>
+        </div>
+
+        <div class="table-wrap">
+          <table id="proyek">
+            <caption>Riwayat pengalaman kerja dan proyek Ash Shiddiq Al May</caption>
+            <thead>
+              <tr>
+                <th scope="col">Tahun</th>
+                <th scope="col">Posisi / Kegiatan</th>
+                <th scope="col">Tempat</th>
+                <th scope="col">Deskripsi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2026 &ndash; Sekarang</td>
+                <td>Karyawan</td>
+                <td>PT Dankos Farma</td>
+                <td>Bekerja di PT Dankos Farma sejak 2026 hingga sekarang.</td>
+              </tr>
+              <tr>
+                <td>2025 &ndash; 2026</td>
+                <td>Karyawan</td>
+                <td>PT Astra Honda Motor</td>
+                <td>Bekerja di PT Astra Honda Motor selama periode 2025&ndash;2026.</td>
+              </tr>
+              <tr>
+                <td>2025</td>
+                <td>Pembuatan Web Sederhana</td>
+                <td>Proyek Mandiri (VS Code)</td>
+                <td>Membuat website sederhana menggunakan HTML, CSS, dan JavaScript di Visual Studio Code.</td>
+              </tr>
+              <tr>
+                <td>2025</td>
+                <td>Desain Poster Sederhana</td>
+                <td>Proyek Mandiri (Canva)</td>
+                <td>Membuat poster sederhana untuk kegiatan dan tugas dengan fokus pada warna, tipografi, dan pesan.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- f. Riwayat keahlian dengan unordered list dan ordered list -->
+    <section class="section section--soft" id="keahlian" aria-labelledby="judul-keahlian">
+      <div class="container">
+        <div class="section__heading">
+          <h2 id="judul-keahlian">Riwayat Keahlian</h2>
+          <p>Kemampuan dan alat yang biasa saya gunakan untuk belajar dan mengerjakan tugas.</p>
+        </div>
+
+        <div class="skills">
+          <article class="skill-card">
+            <h3>Keahlian (Unordered List)</h3>
+            <ul class="tags">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript dasar</li>
+              <li>Desain responsif</li>
+              <li>Desain poster</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Alat &amp; Urutan Belajar (Ordered List)</h3>
+            <ol class="steps">
+              <li>Menulis struktur halaman dengan HTML.</li>
+              <li>Mengatur tampilan dan layout memakai CSS.</li>
+              <li>Menambah interaksi dengan JavaScript.</li>
+              <li>Mendesain poster dan aset visual di Canva.</li>
+              <li>Merapikan kode dan menguji responsivitas.</li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- g. Elemen multimedia -->
+    <section class="section" id="multimedia" aria-labelledby="judul-multimedia">
+      <div class="container">
+        <div class="section__heading">
+          <h2 id="judul-multimedia">Multimedia Perkenalan</h2>
+          <p>Audio dan video singkat sebagai media perkenalan diri.</p>
+        </div>
+
+        <div class="media-grid">
+          <figure class="media-card">
+            <figcaption>Audio perkenalan</figcaption>
+            <audio controls preload="metadata">
+              <source src="media/audio.mp3" type="audio/mpeg">
+              Browser Anda tidak mendukung elemen audio.
+            </audio>
+          </figure>
+
+          <figure class="media-card media-card--video">
+            <figcaption>Video perkenalan</figcaption>
+            <video controls preload="metadata" width="640" height="360">
+              <source src="media/video.mp4" type="video/mp4">
+              Browser Anda tidak mendukung elemen video.
+            </video>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- h. Form kontak interaktif dan validasi -->
+    <section class="section section--soft" id="kontak" aria-labelledby="judul-kontak">
+      <div class="container">
+        <div class="section__heading">
+          <h2 id="judul-kontak">Kontak</h2>
+          <p>Kirim pesan melalui formulir di bawah atau hubungi email saya.</p>
+        </div>
+
+        <div class="contact">
+          <div class="contact__info">
+            <h3>Mari terhubung</h3>
+            <p>Punya pertanyaan, ingin berdiskusi, atau ingin mengerjakan tugas bersama? Silakan isi formulir atau hubungi saya melalui email.</p>
+            <p class="contact__email">
+              <span>Email</span>
+              <a href="mailto:ashiddiqalmay1@gmail.com">ashiddiqalmay1@gmail.com</a>
+            </p>
+            <ul class="contact__list">
+              <li><strong>Nama:</strong> ASH SHIDDIQ AL MAY</li>
+              <li><strong>NIM:</strong> 312510072</li>
+              <li><strong>Kampus:</strong> Universitas Pelita Bangsa</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field">
+              <label for="nama">Nama</label>
+              <input id="nama" name="nama" type="text" required minlength="3" placeholder="Nama lengkap" autocomplete="name" aria-describedby="error-nama">
+              <small class="field__error" id="error-nama" data-error-for="nama"></small>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required placeholder="nama@email.com" autocomplete="email" aria-describedby="error-email">
+              <small class="field__error" id="error-email" data-error-for="email"></small>
+            </div>
+
+            <div class="field">
+              <label for="pesan">Pesan</label>
+              <textarea id="pesan" name="pesan" rows="4" required minlength="10" placeholder="Tulis pesan Anda di sini..." aria-describedby="error-pesan"></textarea>
+              <small class="field__error" id="error-pesan" data-error-for="pesan"></small>
+            </div>
+
+            <button class="button button--primary" type="submit">Kirim pesan</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="tahun"></span> ASH SHIDDIQ AL MAY. Dibuat dengan HTML5, CSS3, dan JavaScript.</p>
+      <a href="#beranda">Kembali ke atas</a>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector(".menu-button");
+    const menu = document.getElementById("menu");
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = menu.classList.toggle("is-open");
+      menuButton.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    menu.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        menu.classList.remove("is-open");
+        menuButton.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    document.getElementById("tahun").textContent = new Date().getFullYear();
+
+    const form = document.getElementById("contactForm");
+    const status = document.getElementById("formStatus");
+
+    const getField = (field) => form.elements[field];
+    const getFieldWrap = (field) => getField(field)?.closest(".field");
+
+    const showError = (field, message) => {
+      const target = document.querySelector(`[data-error-for="${field}"]`);
+      if (target) target.textContent = message;
+    };
+
+    const setFieldValid = (field) => {
+      const input = getField(field);
+      const wrap = getFieldWrap(field);
+      showError(field, "");
+      if (input) input.setAttribute("aria-invalid", "false");
+      if (wrap) wrap.classList.remove("field--invalid");
+    };
+
+    const setFieldInvalid = (field, message) => {
+      const input = getField(field);
+      const wrap = getFieldWrap(field);
+      showError(field, message);
+      if (input) input.setAttribute("aria-invalid", "true");
+      if (wrap) wrap.classList.add("field--invalid");
+    };
+
+    const clearErrors = () => {
+      ["nama", "email", "pesan"].forEach(setFieldValid);
+    };
+
+    ["nama", "email", "pesan"].forEach((field) => {
+      const input = getField(field);
+      if (!input) return;
+      input.addEventListener("input", () => {
+        setFieldValid(field);
+        status.textContent = "";
+        status.classList.remove("form-status--success");
+      });
+    });
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      clearErrors();
+      status.textContent = "";
+      status.classList.remove("form-status--success");
+
+      const nama = form.nama.value.trim();
+      const email = form.email.value.trim();
+      const pesan = form.pesan.value.trim();
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      let firstInvalid = null;
+
+      if (nama.length < 3) {
+        setFieldInvalid("nama", "Nama minimal 3 karakter.");
+        firstInvalid = firstInvalid || "nama";
+      }
+
+      if (!emailPattern.test(email)) {
+        setFieldInvalid("email", "Masukkan alamat email yang valid.");
+        firstInvalid = firstInvalid || "email";
+      }
+
+      if (pesan.length < 10) {
+        setFieldInvalid("pesan", "Pesan minimal 10 karakter.");
+        firstInvalid = firstInvalid || "pesan";
+      }
+
+      if (firstInvalid) {
+        status.textContent = "Periksa kembali data yang belum sesuai.";
+        getField(firstInvalid)?.focus();
+        return;
+      }
+
+      status.textContent = `Terima kasih, ${nama}! Pesan Anda berhasil disimulasikan terkirim.`;
+      status.classList.add("form-status--success");
+      form.reset();
+    });
+  </script>
+</body>
+</html>
